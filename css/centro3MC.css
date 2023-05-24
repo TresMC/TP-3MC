@@ -1,0 +1,93 @@
+:root{
+    --oscuro:#07070A;
+    --azulOscuro:#0A1128;
+    --azulClaro:#006FE6;
+    --blanco:#FEFCFB;
+    --titulos:'Baloo 2', cursive; /* h1,h2,h3 */
+    --parrafos:'Montserrat', sans-serif; /* p,a*/
+    --ColorLogo: #DB6B79;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 10px equi. 1rem */
+}
+body{
+    font-size: 1.6rem;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+/*Estilos globales*/
+h1, h2, h3{
+    font-family: var(--titulos);
+}
+
+p,a{font-family: var(--parrafos);
+}
+/*Fin agregado  fuentes MK*/
+img {
+      max-width: 99%;
+  }
+  .contenedor {
+      margin: 0;
+      padding: 5px;
+      font-size: 120%;
+      background-color: #070808;
+      color: var(--blanco);
+  }
+
+  .formatotext {
+      padding-left: 20px;
+      padding-right: 25px;
+      text-align: justify;
+      background-color: #070808;
+      color: var(--blanco);
+  }
+  .nosotros {
+      font-size: 120%;
+      padding-left: 80px;
+      padding-right: 80px;
+      background-color: #070808;
+  }
+
+  .imagen {
+      display: flex;
+      justify-content: center;
+      background-color: #070808;
+  }
+  .imagen img {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+
+
+  .hr {
+      height: 0px;
+      background-color: #DB6B79;
+  }
+
+  .entrada-blog a {
+    display: inline-block;
+      background-color: #DB6B79;
+      padding: 10px 20px;
+      text-decoration: none;
+      /* font-weight: bold; */
+      border-radius: 5px;
+  }
+
+  @media (min-width:480px) {
+      .dos-columnas {
+          display: flex;
+          justify-content: space-between;
+      }
+
+      .entrada-blog {
+          flex-basis: calc(50%);
+      }
+  }

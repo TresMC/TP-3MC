@@ -1,0 +1,80 @@
+/*Inicio agregado fuentes MK*/
+:root{
+	--oscuro:#07070A;
+	--azulOscuro:#0A1128;
+	--azulClaro:#006FE6;
+	--blanco:#FEFCFB;
+	--titulos:'Baloo 2', cursive; /* h1,h2,h3 */
+	--parrafos:'Montserrat', sans-serif; /* p,a*/
+	--ColorLogo: #DB6B79;
+  }
+  html{
+	box-sizing: border-box;
+	font-size: 62.5%;
+	/* 10px equi. 1rem */
+  }
+  body{
+	font-size: 1.6rem;
+  }
+  
+  *,*::before, *::after{
+	box-sizing: inherit;
+  }
+  
+  /*Estilos globales*/
+  h1, h2, h3{
+	font-family: var(--titulos);
+  }
+  
+  p,a{font-family: var(--parrafos);
+  }
+  /*Fin agregado  fuentes MK*/
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+.slider-frame {
+	width: 1280px;
+      height: auto;
+	margin:0.1px auto;
+	overflow: hidden;
+}
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+.slider-frame img {
+	width: 100%;
+}
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+@media screen and (max-width: 900px) {
+	.slider-frame {
+		width: 700px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.slider-frame {
+		width: 350px;
+	}
+}

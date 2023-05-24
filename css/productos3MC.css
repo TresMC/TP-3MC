@@ -1,0 +1,96 @@
+/*Inicio agregado fuentes MK*/
+:root{
+    --oscuro:#07070A;
+    --azulOscuro:#0A1128;
+    --azulClaro:#006FE6;
+    --blanco:#FEFCFB;
+    --titulos:'Baloo 2', cursive; /* h1,h2,h3 */
+    --parrafos:'Montserrat', sans-serif; /* p,a*/
+    --ColorLogo: #DB6B79;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 10px equi. 1rem */
+}
+body{
+    font-size: 1.6rem;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+/*Estilos globales*/
+h1, h2, h3{
+    font-family: var(--titulos);
+}
+
+p,a{font-family: var(--parrafos);
+}
+/*Fin agregado  fuentes MK*/
+/*-------------------------- Pagina index   --------------------*/
+.main{
+    background-color: black;
+}
+.tarjeta {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #727272;
+    margin: 15px;
+}
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.textocard {
+    padding: 10px;
+}
+
+.textocard h2{
+    color: blanchedalmond;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.textocard p{
+    color: blanchedalmond;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;  
+}
+.tarjeta a {
+    color: blanchedalmond;
+    font-size: 23px;
+    text-decoration: none;
+    background-color: dimgray;
+    padding: 5px;
+    margin: px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.tarjeta p {
+    color: blanchedalmond;
+}
+
+.contenedor p {
+    padding: 10px 0px;
+}
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.contenedor div{
+    height: 550px;
+}

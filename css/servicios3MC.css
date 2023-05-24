@@ -1,0 +1,72 @@
+
+main{
+    margin-top: 0%;
+    padding-top: 0;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* background-color: #DB6B79; */
+    background-color: #C2A69B;
+    box-sizing: content-box;
+    max-width: 100vw;
+}
+
+.eslogan {
+    float: right;
+    margin-left: 15px;
+    color: #DB6B79;
+    font-weight: 800;
+
+  }
+
+.caja_servicios{
+    border: 4px solid black;
+    background-color: #CC978F;
+    min-height: 60px;
+    max-width: 50%;
+    margin: 20%;
+    margin: 4%;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+
+
+.titulo_servicios{
+  border-bottom: 3px solid black;
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.texto_servicios{
+    padding: 0px 5px;
+    /* font-weight: bold; */
+}
+
+.animacion img {
+    border-radius: 10px;
+}
+
+/* ANIMACIÓN */
+.animacion {
+    width: auto;
+    height: auto; 
+    text-align: center;
+    /* font-weight: bold; */
+    padding: 5px;
+    animation-name: example;
+    animation-duration: 10s;
+    position: relative;
+    animation-delay: s;
+}
+
+@keyframes example {
+    0%   {background-color:none; left:0px; top:0px;}
+    20%  {background-color:none; left:20%; top:0px;}
+    40%  {background-color:none; left:20%; top:0px;}
+    80%  {background-color:none; left:20%; top:0px;}
+}
+
+
