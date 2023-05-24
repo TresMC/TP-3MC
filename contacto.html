@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title> 3MC Conectados | 24/7 </title>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/carrusel3MC.css">
+  <link rel="stylesheet" href="css/centro3MC.css">
+  <link rel="stylesheet" href="css/footer3MC.css">
+  <link rel="stylesheet" href="css/estilo3MC.css">
+  <link rel="stylesheet" href="css/contacto3MC.css">
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400&family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- Iconos -->
+  <script src="https://kit.fontawesome.com/e3ba4cd104.js" crossorigin="anonymous"></script>
+  <!-- fin -->
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="img/lg.png" class="logi" alt="Logo">
+      <p class="eslogan">3MC Tu conexión 24/7</p>
+    </div>
+    <div class="navbar">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="productos.html">Productos</a>
+      <a href="#contacto" class="active">Contacto</a>
+    </div>
+    <h2>Contáctanos</h2>
+  </div>
+  <!-- Seccion Contactos -->
+  <section class="contacto">
+    <!-- <h2>Contáctanos</h2> -->
+    <div class="contenido-contacto">
+      <div class="informacion-contacto">
+        <h3>Información de contacto</h3>
+        <p><i class="fa-sharp fa-solid fa-envelope"></i> Telefonía@<span>3MC</span>.com</p>
+        <p><i class="fa-solid fa-phone"></i> +54-011-203558</p>
+
+      </div>
+
+      <form action="" method="POST" id="form" class="formulario-contacto">
+        <div class="input-contacto">
+          <label for="">Nombre</label>
+          <input type="text" name="" id="name" placeholder="Pedro Perez">
+        </div>
+        <div class="input-contacto">
+          <label for="">Email</label>
+          <input type="email" name="" id="email" placeholder="example@ejemplo.com">
+        </div>
+        <div class="input-contacto">
+          <label for="">Teléfono</label>
+          <input type="Telefono" name="" id="Telefono" placeholder="011-542818">
+          <div class="input-contacto">
+            <label for="texto">Mensaje</label>
+            <textarea class="input-contacto" placeholder="Su mensaje.." style="height:100px"></textarea>
+          </div>
+          <div class="input-contacto">
+            <input type="submit" value="Enviar" class="btn azul">
+            <p class="warnings" id="warnings"></p>
+          </div>
+          <div class="input-contacto">
+            <label for="">Mi Ubicación</label>
+            <button class="btn azul" onclick="getLocation()">Click Aqui</button>
+            <p class="LyL"  id="ubicar"></p>
+          </div>
+      </form>
+    </div>
+  </section>
+
+  <script src="js/scriptAPI.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+<footer>
+  <div class="container__footer">
+    <div class="box__footer">
+      <div class="logo">
+        <img src="img/logo3MC.jpeg" alt="">
+      </div>
+      <div class="terms">
+        <p>3MC Tu Empresa Telefónica</p>
+      </div>
+    </div>
+
+    <div class="box__footer">
+      <h2>3MC Conectados 24/7</h2>
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="#">Contacto</a>
+    </div>
+
+    <div class="box__footer">
+      <h2>Redes Sociales</h2>
+      <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+      <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+      <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+      <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+    </div>
+  </div>
+  <div class="box__copyright">
+    <hr>
+    <p>Todos los derechos reservados © 2023 Codo a Codo <b>Comisión 23014</b></p>
+    <p>Integrantes Proyecto: Magali Suárez, Manu Carambia, Marcelo Kelm, Cesar Aponte<b></b></p>
+  </div>
+</footer>
+
+</html>
